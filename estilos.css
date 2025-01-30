@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, sans-serif;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 20px
+
+}
+
+.contenido {
+    max-width: 600px;
+    background: #111;
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(225, 225, 225, 0.2);
+
+
+}
+
+button{ 
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+button:hover {
+    scroll-padding-block-start: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#imagenes img {
+    width: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    border:2px solid white
+}
